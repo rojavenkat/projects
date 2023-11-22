@@ -1,0 +1,26 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-height: 50vh;
+  background-color: aqua;
+  width: 300px;
+}
+.calculator {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+button {
+  width: 70px;
+  height: 70px;
+  font-size: 20px;
+}
+textarea {
+  text-align: center;
+}
